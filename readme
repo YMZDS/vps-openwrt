@@ -1,1 +1,18 @@
 在vps上安装openwrt
+Ubuntu或Debian（基于 CentOS/Arch 未测试）
+
+apt update && apt install -y wget 
+
+1.上传 
+
+op.img.gz
+wrt_kernel.bin
+op_install.sh
+
+放在root文件夹下
+
+2.执行脚本
+bash op_install.sh
+
+
+3.默认password,改密码
